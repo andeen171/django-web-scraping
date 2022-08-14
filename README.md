@@ -1,3 +1,5 @@
+## Aplicação Django + Vue3 para pesquisar e exibir produtos da drogasil 
+
 # Instruções para rodar a aplicação
 
 ## Inicie o ambiente virtual (venv)

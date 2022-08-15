@@ -4,17 +4,26 @@
 
 ## Inicie o ambiente virtual (venv)
 ```
+python -m venv venv
+```
+então
+```
 /venv/bin/activate
+```
 ou
-/venv/bin/activate.ps1
+```
+/venv/Scripts/activate
 ```
 
 ## Instale as dependências da api
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Instale as dependências do cliente
+```
+yarn global add @vue/cli
+```
 ```
 yarn add
 ```

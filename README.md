@@ -8,11 +8,11 @@ python -m venv venv
 ```
 então
 ```
-/venv/bin/activate
+venv\Scripts\activate
 ```
 ou
 ```
-/venv/Scripts/activate
+venv\Scripts\Activate.ps1
 ```
 
 ## Instale as dependências da api
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 yarn global add @vue/cli
 ```
 ```
-yarn add
+yarn
 ```
 
 ## Compile os arquivos do cliente

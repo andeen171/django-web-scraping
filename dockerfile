@@ -1,7 +1,7 @@
 # Transient Node Build Image
 FROM node:lts-alpine3.15
 WORKDIR /app
-COPY .npmrc package.json yarn.lock webpack.config.js .babelrc /app/
+COPY package.json yarn.lock vue.config.js babel.config.js /app/
 RUN yarn install
 
 # Python Runtime Image

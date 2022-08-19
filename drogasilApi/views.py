@@ -5,7 +5,7 @@ import requests
 
 
 class Drogasil(APIView):
-    api_address = 'https://api-gateway-prod.drogasil.com.br/search/v2/store/DROGASIL/channel/SITE/product/search/live'
+    api_address = ''
 
     def get(self, request):
         term = request.GET.get('term')
